@@ -1,0 +1,18 @@
+<w:dhtmlxgrid.columnHeader id="selected" type="ch" text="#master_checkbox" width="40" />
+<w:dhtmlxgrid.columnHeader id="status" type="ro" text="상태hidden" width="0" />
+							<w:dhtmlxgrid.columnHeader id="scmData" type="ccoro" text="소유자" width="50">
+								<w:dhtmlxgrid.columnCombo>
+									<w:dhtmlxgrid.columnCombo.item text="구매" value="1" />
+									<w:dhtmlxgrid.columnCombo.item text="재무" value="0" />
+								</w:dhtmlxgrid.columnCombo>
+							</w:dhtmlxgrid.columnHeader>
+							<w:dhtmlxgrid.columnHeader id="codeNo" type="ro" text="코드번호" width="80" required="true" />
+							<w:dhtmlxgrid.columnHeader id="code" type="ro" text="코드" width="100" required="true" />
+							<w:dhtmlxgrid.columnHeader id="text1" type="ed" text="TEXT1" width="200" align="left" />
+							<w:dhtmlxgrid.columnHeader id="text2" type="ed" text="TEXT2" width="200" align="left" />
+							<w:dhtmlxgrid.columnHeader id="text3" type="ed" text="TEXT3" width="100" align="left" />
+							<w:dhtmlxgrid.columnHeader id="text4" type="ed" text="TEXT4" width="100" align="left" />
+							<w:dhtmlxgrid.columnHeader id="text5" type="ed" text="TEXT5" width="100" align="left" />
+							<w:dhtmlxgrid.columnHeader id="flag" type="ed" text="FLAG" width="60" />
+							<w:dhtmlxgrid.columnHeader id="sortSeq" type="edn" text="정렬순서" width="60" />
+							<w:dhtmlxgrid.columnHeader id="useFlag" type="ch" text="사용여부" width="60" />
